@@ -1,2 +1,2 @@
 # whiteburn-data-explorer
-Data Explorer
+Data Explorer for exploration for whiteburn sensor data
