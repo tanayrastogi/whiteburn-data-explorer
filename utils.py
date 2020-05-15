@@ -35,7 +35,7 @@ def plot_map(df, datatype, marker_location=-1):
                         hover_name="DateTime",
                         hover_data=["{}".format(datatype)],
                         color=datatype,
-                        color_continuous_scale=px.colors.sequential.RdBu,
+                        color_continuous_scale=px.colors.sequential.OrRd,
                         center= dict(lat=df.loc[0, "Lat"], lon=df.loc[0, "Lon"]),
                         zoom=13, height=300)
     
